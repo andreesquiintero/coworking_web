@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icono.JPG" type="image/x-icon">
+    <title>Reservas</title>
+</head>
+<body>
+    <header>
+        <section style="text-align: center;">
+            <figure><br></br>
+            <img src="images/logo.JPG" alt="Logo Co-working" width="200">
+            </figure>
+            <h1>Reservas Co-working</h1>
+            <p>
+            Por favor ingrese los siguientes datos para gestionar su reserva
+            </p>
+        </section>
+    </header>
+    
+    <section style="text-align: center;">
+            <h4>Formulario de Registro</h4>
+            <form action="responses/success.html" method="get" autocomplete="on">
+
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre_usuario" required placeholder="Ingrese su nombre" maxlength="50"> <br></br>
+
+            <label for="tipo_identificacion"> Tipo de Identificación:</label>
+            <select id="identificacion" name="identificacion" required>
+                <option value="">Seleccione</option>
+                <option value="cedula_ciudadania">Cédula de Ciudadanía</option>
+                <option value="pasaporte">Pasaporte</option>
+                <option value="ppt">Permiso por protección temporal</option>
+                <option value="cedula_extranjeria">Cédula de Extranjería</option>
+            </select><br></br>
+        
+            <label for="text"> Número de Identificación</label>
+            <input type="text" id="numero_identificacion" required placeholder="Letras y números" maxlength="15"><br></br>
+
+            <label for="celular"> Celular:</label>
+            <input type="tel" id="celular" name="celular"required placeholder="Celular sin codigo de país" maxlength="10" required><br></br>
+
+
+            <label for="pais">País:</label>
+            <select id="pais" name="pais" required>
+            <option value="">Seleccione</option>
+            <option value="93">Afganistán (+93)</option>
+            <option value="355">Albania (+355)</option>
+            <option value="49">Alemania (+49)</option>
+            <option value="376">Andorra (+376)</option>
+            <option value="244">Angola (+244)</option>
+            <option value="54">Argentina (+54)</option>
+            <option value="374">Armenia (+374)</option>
+            <option value="61">Australia (+61)</option>
+            <option value="43">Austria (+43)</option>
+            <option value="994">Azerbaiyán (+994)</option>
+            <option value="973">Baréin (+973)</option>
+            <option value="880">Bangladés (+880)</option>
+            <option value="32">Bélgica (+32)</option>
+            <option value="55">Brasil (+55)</option>
+            <option value="1">Canadá (+1)</option>
+            <option value="56">Chile (+56)</option>
+            <option value="86">China (+86)</option>
+            <option value="57">Colombia (+57)</option>
+            <option value="53">Cuba (+53)</option>
+            <option value="20">Egipto (+20)</option>
+            <option value="503">El Salvador (+503)</option>
+            <option value="34">España (+34)</option>
+            <option value="33">Francia (+33)</option>
+            <option value="49">Alemania (+49)</option>
+            <option value="44">Reino Unido (+44)</option>
+            <option value="91">India (+91)</option>
+            <option value="62">Indonesia (+62)</option>
+            <option value="98">Irán (+98)</option>
+            <option value="964">Irak (+964)</option>
+            <option value="353">Irlanda (+353)</option>
+            <option value="972">Israel (+972)</option>
+            <option value="39">Italia (+39)</option>
+            <option value="81">Japón (+81)</option>
+            <option value="962">Jordania (+962)</option>
+            <option value="7">Kazajistán (+7)</option>
+            <option value="254">Kenia (+254)</option>
+            <option value="965">Kuwait (+965)</option>
+            <option value="856">Laos (+856)</option>
+            <option value="961">Líbano (+961)</option>
+            <option value="218">Libia (+218)</option>
+            <option value="52">México (+52)</option>
+            <option value="95">Myanmar (+95)</option>
+            <option value="31">Países Bajos (+31)</option>
+            <option value="64">Nueva Zelanda (+64)</option>
+            <option value="234">Nigeria (+234)</option>
+            <option value="850">Corea del Norte (+850)</option>
+            <option value="47">Noruega (+47)</option>
+            <option value="92">Pakistán (+92)</option>
+            <option value="507">Panamá (+507)</option>
+            <option value="595">Paraguay (+595)</option>
+            <option value="51">Perú (+51)</option>
+            <option value="63">Filipinas (+63)</option>
+            <option value="48">Polonia (+48)</option>
+            <option value="351">Portugal (+351)</option>
+            <option value="7">Rusia (+7)</option>
+            <option value="966">Arabia Saudita (+966)</option>
+            <option value="27">Sudáfrica (+27)</option>
+            <option value="82">Corea del Sur (+82)</option>
+            <option value="34">España (+34)</option>
+            <option value="94">Sri Lanka (+94)</option>
+            <option value="46">Suecia (+46)</option>
+            <option value="41">Suiza (+41)</option>
+            <option value="886">Taiwán (+886)</option>
+            <option value="66">Tailandia (+66)</option>
+            <option value="90">Turquía (+90)</option>
+            <option value="380">Ucrania (+380)</option>
+            <option value="971">Emiratos Árabes Unidos (+971)</option>
+            <option value="44">Reino Unido (+44)</option>
+            <option value="1">Estados Unidos (+1)</option>
+            <option value="598">Uruguay (+598)</option>
+            <option value="58">Venezuela (+58)</option>
+            <option value="84">Vietnam (+84)</option>
+            <option value="263">Zimbabue (+263)</option>
+            </select><br></br>
+            
+            
+            <label for="correo"> Correo:</label>
+            <input type="email" id="email" name="email" maxlength="50" required placeholder="Ingrese correo"> <br></br>
+
+            <label for="direccion">Dirección de residencia</label>
+            <input type="text" id="direccion" name="direccion" required maxlength="50"><br></br>
+
+            <label for="tipo_espacio"> Tipo de Espacio:</label>
+            <select id="tipo_espacio" name="tipo_espacio" required>
+                <option value="">Seleccione</option>
+                <option value="privado1">Privado 1</option>
+                <option value="privado2">Privado 2</option>
+                <option value="privado3">Privado 3</option>
+                <option value="privado4">Privado 4</option>
+                <option value="privado5">Privado 5</option>
+                <option value="privado6">Privado 6</option>
+                <option value="gerencia">Gerencia</option>
+                <option value="publico1">Público 1</option>
+                <option value="publico2">Público 2</option>
+                <option value="publico3">Público 3</option>
+                <option value="publico4">Público 4</option>
+                <option value="publico5">Público 5</option>
+                <option value="publico6">Público 6</option>
+                <option value="sala_juntas">Sala de Juntas</option>
+                <option value="oficina_7">Oficina 7</option>
+                <option value="oficina_8">Oficina 8</option>
+            </select><br></br>
+
+            <label for="fecha_inicio">Desde:</label>
+            <input type="date" required><br></br>
+
+            <label for="fecha_fin">Hasta:</label>
+            <input type="date" required> <br></br>
+
+            <label for="comentarios">Comentarios:</label><br></br>
+                <textarea id="comentarios" name="comentarios" rows="10" cols="50"></textarea> <br></br>
+                    
+            <label for="politicas"> Acepto las politicas y reglas del co-working</label>
+            <input type="checkbox" id="politicas" name="politicas" value="si" required> <br></br>
+
+            <button type="submit">Enviar</button><br></br>
+
+        
+
+         </form>
+    </section>
+
+
+
+</body>
+</html>
