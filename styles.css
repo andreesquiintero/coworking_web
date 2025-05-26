@@ -73,12 +73,14 @@ body{
     display: flex;
     padding: 10px;
     margin: 10px;
+    border-radius: 15PX;
 }
 
 #input2{
     display: flex;
     padding: 10px;
     margin: 10px;
+    border-radius: 15PX;
 }
 
 .calendario td:hover{
