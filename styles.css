@@ -1,0 +1,131 @@
+body{
+    font-family: "Poppings", sans-serif;
+    margin: 0;
+}
+
+.menu {
+
+    padding: 1px;
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(245, 244, 244);
+    display: block;
+    padding: 20px;
+} /* este estilo lo que hace es tomar la clase, y las etiquetas dentro de esa clase, sin modificar todas las de la pagina inclui la etiqueta a para quitarle el formato predeterminado*/
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background-color: rgb(67, 148, 99);
+
+}
+.logo{
+    display: flex;
+    height: 50px;
+    padding: 15px;
+}
+
+.section_initial{
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+    background-image:linear-gradient(rgba(175, 226, 194, 0.5), rgba(255,255,255,0.5)), url(https://www.ejeprime.com/files//fotos/wework/Wework%20oficinas%20948.jpg);
+    background-size: cover;
+    color: black;
+}
+
+
+
+.columna1 {
+    margin: 20px;
+}
+
+.columna2{
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
+.calendario{
+    display: flex;
+    justify-content: center;
+}
+.quienes_somos{
+    display: block;
+    padding: 20px;
+    margin: 20px;
+}
+
+#input1{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+#input2{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.calendario td:hover{
+    background-color: rgb(67, 148, 99);
+    cursor: pointer;
+}
+
+.quienes_somos {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  clear: both;
+  padding: 0;
+  margin: 20px;
+}
+
+.quienes_somos h1{
+    font-size: 30px;
+}
+
+.quienes_somos p{
+    font-size: 25px;
+    text-align: justify;
+}
+.quienes_somos h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.imagentabla {
+    width: 470px;
+}
+
+.boton{
+    align-items: center;
+    text-align: center;
+}
+button{
+    font-size: 40px;
+    background-color: rgb(0, 0, 0);
+    font-family: "Poppings", sans-serif;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+button:hover{
+    background-color: rgb(67, 148, 99);
+    box-shadow: 100%;
+}
