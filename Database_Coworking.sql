@@ -1,4 +1,4 @@
- Tabla tipo de identificación
+-- Tabla tipo de identificación
 CREATE TABLE tipo_id (
     tipo_id INT IDENTITY(1,1) PRIMARY KEY,
     nom_id VARCHAR(55) NOT NULL
