@@ -1,17 +1,10 @@
-CREATE DATABASE coworking;
-GO
-
--- Usar la base de datos
-USE coworking;
-GO
-
--- Tabla tipo de identificación
+ Tabla tipo de identificaciÃ³n
 CREATE TABLE tipo_id (
     tipo_id INT IDENTITY(1,1) PRIMARY KEY,
     nom_id VARCHAR(55) NOT NULL
 );
 
--- Tabla de país
+-- Tabla de paÃ­s
 CREATE TABLE pais (
     cod_pais INT IDENTITY(1,1) PRIMARY KEY,
     nom_pais VARCHAR(55) NOT NULL
@@ -37,7 +30,7 @@ CREATE TABLE espacio (
     valor DECIMAL(10,2)
 );
 
--- Tabla de información coworking
+-- Tabla de informaciÃ³n coworking
 CREATE TABLE info_coworking (
     id_coworking INT IDENTITY(1,1) PRIMARY KEY,
     nombre VARCHAR(50) NOT NULL,
